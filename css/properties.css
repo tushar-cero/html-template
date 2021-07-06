@@ -1,0 +1,53 @@
+.stack_exchange{
+    color: #242729;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Chalkduster, fantasy;
+    font-size: 13px;
+    line-height: 1.30769231;
+}
+
+.background-image-attributes{
+    background-image: url('../images/filename.extension');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+/*---------- For Rotated background feature ----------*/
+
+#ID_Name{
+    position: relative;
+}
+#ID_Name::before, #ID_Name::after{
+    content: "";
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    background-color: var(--white-color);
+}
+
+/*---------- Background Blackish Tint ----------*/
+
+#ID_Name::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /*higher the z-index, closer it is to you*/
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 6px 5px 10px #000000, inset -6px -5px 10px #000000;
+}
+.container{
+    position: relative;
+    z-index: 2;
+}
