@@ -23,9 +23,8 @@ Clone, Pull or download the repository, rename the folder with you `project name
   - index.js
   - smooth_scroll.js
   - other js files
-- images
-  - Contains all images used in the wesbite. You may also create folders inside this.
 
+***
 
 ## Resources
 
@@ -49,6 +48,7 @@ Here is a list of websites you may find useful while making your website. You wi
 - [Image Color Picker](https://imageresizer.com/color-picker) - Click on the image to get the html hexa codes. Use the online image color picker to select a color at any part of the image and get the HTML Color Code of that pixel. Also you get the HEX color code value, RGB value and HSV value. You can put a picture url or upload your own image.
 - [Remove Background](https://www.remove.bg/) or [Erase Background](https://www.erase.bg/) - Remove Background of any image. It is very useful tool for you websites background images. 
 - [Mockup Phone](https://mockuphone.com/device?type=tv) - Mobile phone mockups can showcase your app, UI and web designs hassle free. The mockups are especially good for promoting your designs responsively. They are also in PSD formats with smart layers to help you easily add your design. However, there are loads of them out there.
+- [UnDraw](https://undraw.co/) - Undraw is an Open-source illustrations for any idea you can imagine and create. Its a constantly updated design project with beautiful SVG images that you can use completely free and without attribution.
 
 #### UX/UI Design
 
