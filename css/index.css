@@ -15,10 +15,23 @@ html {
     -webkit-font-smoothing: antialiased; 
     overflow-y: scroll;
 }
-body::-webkit-scrollbar { display: none }
-ul { list-style: none }
-img{ width: 100% }
-label, input[type=button], input[type=submit], button { cursor: pointer }
+
+body::-webkit-scrollbar { 
+    display: none 
+}
+
+ul { 
+    list-style: none; 
+}
+
+img { 
+    width: 100%; 
+}
+
+label, input[type=button], input[type=submit], button { 
+    cursor: pointer; 
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -31,7 +44,15 @@ a {
 
 
 :root {
+    --primary-color: ;
+    --primary-color-hover: ;
+    --secondary-color: ;
+    --secondary-color-hover: ;
+    
+    --background-color: ;
     --border-color: ;
+    --border-color-active: ;
+    
     --white-color: #fff;
     --black-color: #000;
 }
@@ -56,10 +77,6 @@ a {
 
 
 
-
-
-
-/*----------MEDIA QUERY----------*/
 
 
 
